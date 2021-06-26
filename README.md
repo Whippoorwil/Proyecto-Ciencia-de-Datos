@@ -1,10 +1,4 @@
-# Proyecto-Ciencia-de-Datos
+# MAPA DEL REPO
 
-Acá iré matiendo las instancias del proyecto poco a poco.
-
-
-Los datos que usaré son los reviews de libros en amazon: sólo los ratings, no las reviews como tal.
-
-Los datso están altamente estructurados. Cuentan con las columnas user,item,rating,timestamp
-
-El csv puede encontrarse [acá](https://drive.google.com/file/d/12OzeuZlbxh43Xz5z9diseP-Jy9N-T4-J/view?usp=sharing)
+Este repositorio existe para almacenar los trabajos que poco a poco se irán presentado.
+business_understanding.pdf incluywe, como indica el nombre, el business understanding. En este caso: una descripción semi-detallada de nuestro proyecto de recommendation system para libros usando datasets de Amazon. El dataset puede encontrarse en [este enlace](https://nijianmo.github.io/amazon/index.html#subsets).
