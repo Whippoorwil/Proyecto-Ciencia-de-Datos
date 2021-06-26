@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\titleformat{\section}
+{\large}
+{}
+{0em}
+{\bfseries}[\titlerule]
+\title{Business Understanding -- Book Recommendation System}
+\author{David Ricardo Pedraza Silva }
+\date{April 2021}
+
+\begin{document}
+
+\maketitle
+\section*{Introduction}
+
+Our idea is to make a recommendation system for books using Amazon's datasets. This way we maximize reach and customer satisfaction across enterprises with similar catalogs and business models (books as a subscription service).    
+
+\section*{Determining Business Objectives}
+
+The objective is to better understand this business niche in order to increase customer satisfaction and revenue. By helping customers find that which they will enjoy but are unlikely to find we facilitate retention and increase profit, especially when we talk about a business model in which reading is a subscription system. Any book related business with a wide catalog may benefit from this, however.
+\section*{Tasks}
+\begin{itemize}
+    \item to draw a correlation between past ratings and future readings using existing public data.
+    \item To find a model which presents banners that feature a product with better than random chance of being purchased.
+    \item increase customer satisfaction by offering a most efficient use of their time.
+    \item To do so by not increasing operation costs, or at least not so much as to offset any gains made by this project.
+\end{itemize}
+\section*{Business Success Criteria}
+\begin{itemize}
+    \item For our model to work using a control group outside our initial data set. A standard deviation above what would be expected by mere randomness is a good goal.
+    \item To be reliably used without offsetting the accuracy the previous model had procured. It must be at least as accurate. 
+    \item The project finishes on time.
+\end{itemize}
+
+\section*{Assessing The Situation}
+
+There are data compilations from Amazon reviews from the past couple of years. Legislation changes fast, however, and there is not complete certainty that any attempt at scraping/mining won't result in legal complications. Further investigation is required.
+
+There is no inside person within the company working with me, however the wealth of data on this site and how far it has spread should suffice for our operation to be a successful one, at least in principle. Truth is we can only trust data from a few years ago to a certain extent -- determining what it is is out of the scope of this project, hence why it would be ideal for our data to be as resent as possible.
+
+\section*{Resources Required}
+
+For now our applications aren't that computationally demanding, a personal home computer should suffice. We also count with this data set \footnote{http://jmcauley.ucsd.edu/data/amazon/} which is nicely formatted. 
+
+\section*{Risk and Contingencies}
+
+We have two mean concerns:
+\begin{itemize}
+    \item For our data to be poor quality.
+    \item For the project to take more than expected.
+    \item For our model to be less than successful.
+\end{itemize}
+
+In the first case, we'll have to scrape. In that case the second concern becomes ever more present and a new concern appears:
+
+\begin{itemize}
+    \item Legality regarding the scrapping of Amazon data.
+\end{itemize}
+\section*{Determining Data Mining Goals}
+To relate reviews made by users with the time in which they were made. After that we want to determine the likelihood of a certain item to be purchased given this historical data. Using the data we are given our task becomes organizing it so as to use it as a predictive tool.
+
+\section*{Project Plan}
+
+\begin{enumerate}
+    \item To understand the business and our objectives (done)
+    \item To gather the data using local storage
+    \item To understand the structure of this data
+    \item To model a solution using said data
+    \item To evaluate the model
+    \item To release our model
+\end{enumerate}
+
+\section*{References}
+Jianmo Ni, Jiacheng Li, Julian McAuley. Justifying recommendations using distantly-labeled reviews and fined-grained aspects. Empirical Methods in Natural Language Processing (EMNLP), 2019
+\end{document}Introduction
+
+Our idea is to use purchase data on amazon, like reviews and purchase history, in order to device predictions which would allows us to make better suggestions/publicity in order to maximize the utility of said suggestion/publicity.
+Determining Business Objectives
+
+The objective is to create greater margins, as for any venture. However the way of doing this is what concerns us. We want to optimize the amount of information shown. We have two resources here: customer's attention and the money poured into banners/publicity, etc... We want to use as little as possible of this two resources in order to increase margin. The way of doing this is maximising the likelihood of showing publicity to customers of products that they will actually consider purchasing.
+Tasks
+
+    to draw a correlation between past reviews and future purchases using existing public data.
+
+    To find a model which presents banners that feature a product with better than random chance of being purchased.
+
+    increase customer satisfaction by offering a most efficient use of their time.
+
+    To do so by not increasing operation costs, or at least not so much as to offset any gains made by this project.
+
+Business Success Criteria
+
+    For our model to work using a control group outside our initial data set. A standard deviation above what would be expected by mere randomness is a good goal.
+
+    To be reliably used without offsetting the accuracy the previous model had procured. It must be at least as accurate.
+
+    The project finishes on time.
+
+Assesing The Situation
+
+There are data compilations from Amazon reviews from the past couple of years. Legislation changes fast, however, and there is not complete certainty that any attempt at scraping/mining won't result in legal complications. Further investigation is required.
+
+There is no inside person within the company working with me, however the wealth of data on this site and how far it has spread should suffice for our operation to be a successful one, at least in principle. Truth is we can only trust data from a few years ago to a certain extent -- determining what it is is out of the scope of this project, hence why it would be ideal for our data to be as resent as possible.
+Resourses Required
+
+
